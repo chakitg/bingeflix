@@ -30,9 +30,9 @@ nav{
 }
 
 .logo{
-    width: 150px;
+    width: 180px;
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 50px;   
 }
 
 nav button{
@@ -221,4 +221,45 @@ input[type='radio']{
     transform: rotate(135deg);
 }
 
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+.faq small{
+    font-size: 13px;
+}
+
+/*----------------------Footer-----------------------*/
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top:6px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
 

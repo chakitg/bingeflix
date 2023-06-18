@@ -119,6 +119,7 @@ nav button{
     padding: 50px 12%;
     font-size: 22px;
     word-spacing: 1px;
+    border-top:6px solid #333;
 }
 
 .row{
@@ -159,6 +160,8 @@ nav button{
     padding: 10px 20px;
     text-align: center;
     font-size: 18px;
+    border-top:6px solid #333;
+    padding-top: 80px;
 }
 
 .faq h2{
@@ -235,7 +238,7 @@ input[type='radio']{
 .footer{
     padding: 50px 15% 10px;
     border-top:6px solid #333;
-    color: #777;
+    color: #b9b9b9;
 }
 
 .footer h2{
@@ -253,7 +256,7 @@ input[type='radio']{
 .footer .col a{
     display: block;
     text-decoration: none;
-    color: #777;
+    color: #b9b9b9;
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -263,3 +266,90 @@ input[type='radio']{
     padding: 10px 0;
 }
 
+.footer .lang{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*----------------------media queries------------------------*/
+
+@media only screen and (max-width:650px){
+    .logo{
+        width: 100px;
+    }
+
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .lang{
+        padding: 4px 8px;
+    }
+    .header-Content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+    .header-Content h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 20px;
+    }
+
+    .email-signIn button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .text-col, .img-col{
+        flex-basis: 100%;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 15px;
+    }
+    .row:nth-child(2), row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .features .row{
+        padding: 10px 0;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    .accordion .content{
+        font-size: 14px;
+    }
+    .accordion li label{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    label::after{
+        font-size: 22px;
+    }
+}
+
+@media(min-width:300px){
+    .logo{
+        width: 100px;
+    }
+
+    /* nav button{
+        padding: 2px 4px;
+    }
+    nav .lang{
+        padding: 2px 5px;
+    } */
+
+    .features{
+        text-align: center;
+    }
+}
